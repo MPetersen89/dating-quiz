@@ -13,24 +13,31 @@
   <h1>Find your soulmate!</h1>
   <h3>Enter your Information and we will pair you with your celebrity soulmate.</h3>
   <form id="yourInfo">
-    <div id="yourInfoDiv" class="form-group">
+    <div id="yourNameDiv" class="form-group">
       <label for="inputName">What is your Name?</label>
       <input type="text" class="form-control" id="inputName">
       <span id="helpBlock1" class="help-block has-error"></span>
     </div>
-    <!-- <div class="form-group has-success has-feedback">
-      <label class="control-label" for="inputSuccess2">Input with success</label>
-      <input type="text" class="form-control" id="inputSuccess2" aria-describedby="inputSuccess2Status">
-      <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
-      <span id="inputSuccess2Status" class="sr-only">(success)</span>
-    </div> -->
-    <!-- <div class="form-group has-error has-feedback">
-      <label class="control-label" for="inputError2">Input with error</label>
-      <input type="text" class="form-control" id="inputError2" aria-describedby="inputError2Status">
-      <span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
-      <span id="inputError2Status" class="sr-only">(error)</span>
-    </div> -->
+    <div id="yourBandDiv" class="form-group">
+      <label for="inputBand">What is your favorite band?</label>
+      <input type="text" class="form-control" id="inputBand">
+      <span id="helpBlock2" class="help-block has-error"></span>
+    </div>
+    <div id="yourHoroscopeDiv" class="form-group">
+      <label for="inputHoroscope">What is your sign?</label>
+      <select class="form-control" id="inputHoroscope"><option value="1"></option><option>Aquarius</option><option>Pisces</option><option>Aries</option><option>Taurus</option><option>Gemini</option><option>Cancer</option><option>Leo</option><option>Virgo</option><option>Libra</option><option>Scorpio</option><option>Sagittarius</option><option>Capricorn</option></select>
+      <span id="helpBlock3" class="help-block has-error"></span>
+    </div>
+    <div id="yourFoodDiv" class="form-group">
+      <label for="inputFood">What is your favorite food?</label>
+      <input type="text" class="form-control" id="inputFood">
+      <span id="helpBlock4" class="help-block has-error"></span>
+    </div>
     <button type="submit" class="btn btn-default btn-lg btn-block">Submit</button>
   </form>
+  <div id="everybodyLovesDevito">
+    <h1>... and your soul mate IS:</h1>
+    <img src="img/devito.jpg" alt="DEVITO!!!!!!" title="DEVITO!!!!!">
+  </div>
 </body>
 </html>
