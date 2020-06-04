@@ -1,8 +1,14 @@
 $(document).ready(function() {
   $("form#yourInfo").submit(function() {
-    event.preventDefault;
     const name = $("#inputName").val();
 
-    console.log(name)
+    if (name === "") {
+      $("#yourInfoDiv").addClass("has-error");
+      $("span#helpBlock1").text("Please enter your name");
+    }
+    else {
+
+    }
+    event.preventDefault();
   });
 });
